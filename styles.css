@@ -1,0 +1,65 @@
+body {
+    height: 90vh;
+    background-image: radial-gradient(rgb(78, 86, 104), rgb(140, 168, 194));
+    font-family: belda-normal, sans-serif;
+    background-image: url("media/Glasgow.png");
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin: 50px auto 0;
+    display: list-item;
+    text-align: center;
+}
+
+.container {
+    padding: 8px 20px;
+    width: inherit;
+    text-align: center;
+    overflow: hidden;
+    height: 12px;
+    float: right;
+    }
+
+    .result {
+    padding-top: 5px;
+    line-height: 28px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    transition: all 1s ease-out;
+    }
+
+    button {
+    display: inline-block;
+    margin-top: 60px;
+    width: 120px;
+    height: 60px;
+    border-radius: 0;
+    border: solid 1px transparent;
+    background-color: rgb(13, 30, 44);
+    color: white;
+    box-shadow: 10px 10px rgb(37, 88, 129);
+    cursor: pointer;
+    }  
+
+    button:hover {
+        border: solid 1px white;
+    }
+
+    button:active {
+        background-color: rgb(37, 88, 129);
+        box-shadow: 10px 10px rgb(13, 30, 44);
+    }
